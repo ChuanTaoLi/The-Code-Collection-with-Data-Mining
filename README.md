@@ -14,7 +14,7 @@ LASSO回归的步骤如下：<br>
 LightGBM预测效果对比.py是调参前后对比用的。<br>
 
 **过采样**<br>
-该文件夹里面存放MAHAKIL、ADASYN的代码和示例。<br>
+该文件夹里面存放MAHAKIL的代码和示例。<br>
 MAHAKIL可以应对二分类或多分类问题的过采样，但是要考虑多重共线性的影响，如何计算出来的行列式为0就运行不了了，主函数入口是MAHAKIL.py，validation.py是辅助文件。<br>
 这里的代码对[MAHAKIL之最新类不平衡过采样方法](http://t.csdnimg.cn/IFdxs)的改进，由于该方法提出是2018年，0.22版本的sklearn有很多库现在没有了，所以对删除的库进行的替换。<br>
 放进去的文献是MAHAKIL的开山之作。<br>
